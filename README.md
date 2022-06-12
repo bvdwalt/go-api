@@ -1,5 +1,6 @@
 # go-api
-Simple Go API using the Gin HTTP framework
+Simple [Go](https://github.com/golang/go) API using the [Gin HTTP framework](https://github.com/gin-gonic/gin)
 
-All you have to do is clone this repo and run the following command:
-`go run main.go`
+All you have to do is clone this repo and run the following commands:<br>
+- `yarn --cwd _ui/ run build`<br>
+- `go run main.go`
