@@ -12,7 +12,7 @@ func main() {
 	// Recovery middleware recovers from any panics and writes a 500 if there was one.
 	router.Use(gin.Recovery())
 	// Register a handler for a route
-	router.GET(".", func(ctx *gin.Context) {
+	router.GET("/", func(ctx *gin.Context) {
 		ctx.String(http.StatusOK, "OK")
 	})
 
